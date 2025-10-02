@@ -1,0 +1,30 @@
+.result {
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 20%;
+    height: 45px;
+    font-size: 20px;
+    margin: 50px 0;
+    padding: 0 5px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.qr_generator_btn{
+    border: 2px border black;
+    border-radius: 5px;
+    width: 20%;
+    height: 45px;
+    font-size: 20px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    transition: ease 0.3s;
+    margin-bottom: 30px;
+}
+.qr_generator_btn:hover{
+    color: black;
+    background-color: rgb(223, 223, 223);
+}

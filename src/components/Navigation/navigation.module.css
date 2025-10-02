@@ -1,0 +1,14 @@
+.nav_style{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    padding: 10px 30px;
+}
+.nav_style>a{
+    text-decoration: none;
+    color: rgb(9, 118, 118);
+}
+.nav_style>a:hover{
+    color: black;
+} 
